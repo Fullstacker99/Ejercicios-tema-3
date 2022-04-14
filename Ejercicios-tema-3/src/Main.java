@@ -2,15 +2,12 @@ package com.open_bootcamp;
 
 public class Main {
     public static void main(String[] args) {
-        int a=5;
-        int b=10;
-        int c=8;
-        int res=suma(a,b,c);
+        int res=suma(5,10,8);
         System.out.println(res);
 
         coche micoche = new coche();
         micoche.SumarPuerta();
-        System.out.println(micoche.puertas);
+        System.out.println("El numero de puertas es: " + micoche.puertas);
 
     }
     //Primera parte
